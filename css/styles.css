@@ -18,7 +18,7 @@ Variables
   --clr-primary-3: hsl(185, 81%, 29%);
   --clr-primary-4: hsl(184, 77%, 34%);
   /* primary/main color */
-  --clr-primary-5: hsl(185, 62%, 45%);
+  --clr-primary-5: hsl(0, 62%, 45%);
   /* lighter shades of primary color */
   --clr-primary-6: hsl(185, 57%, 50%);
   --clr-primary-7: hsl(184, 65%, 59%);
@@ -232,7 +232,7 @@ Navbar
 }
 @media screen and (min-width: 992px) {
   /* hide toggle button */
-  .navbar{
+  .navbar {
     padding: 1rem 2rem;
   }
   .nav-toggle {
@@ -270,7 +270,7 @@ Navbar
     font-size: 1.2rem;
     transition: var(--transition);
   }
-  .nav-icon:hover{
+  .nav-icon:hover {
     color: var(--clr-primary-8);
   }
 }
